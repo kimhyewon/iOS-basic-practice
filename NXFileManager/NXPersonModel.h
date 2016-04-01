@@ -20,5 +20,11 @@
 - (NSNumber *)personTeamAtIndex:(int)index;
 - (NSDictionary *)getPersonObjectAtIndex:(int)index;
 
+- (NSString*) findPersonNameByNumber:(NSNumber*)number;
+- (NSNumber*) findPersonNumberByName:(NSString*)name;
+
+- (NSArray*) sortedByName;
+- (NSArray*) sortedByNumber;
+- (NSArray*) sortedByTeam;
 
 @end
