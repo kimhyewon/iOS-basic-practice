@@ -17,6 +17,8 @@
 		69024F7F1CAF3BCA0032DF38 /* FirstTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69024F7E1CAF3BCA0032DF38 /* FirstTabTests.m */; };
 		69024F8A1CAF3F760032DF38 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69024F891CAF3F760032DF38 /* DetailViewController.m */; };
 		69024F8D1CAF418B0032DF38 /* Detail2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69024F8C1CAF418B0032DF38 /* Detail2ViewController.m */; };
+		69024FF81CB18B760032DF38 /* persons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 69024FF71CB18B760032DF38 /* persons.txt */; };
+		69024FFB1CB18C670032DF38 /* NXPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69024FFA1CB18C670032DF38 /* NXPersonModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		69024F891CAF3F760032DF38 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = FirstTab.xcodeproj/../DetailViewController.m; sourceTree = SOURCE_ROOT; };
 		69024F8B1CAF418B0032DF38 /* Detail2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail2ViewController.h; sourceTree = "<group>"; };
 		69024F8C1CAF418B0032DF38 /* Detail2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail2ViewController.m; sourceTree = "<group>"; };
+		69024FF71CB18B760032DF38 /* persons.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = persons.txt; sourceTree = "<group>"; };
+		69024FF91CB18C670032DF38 /* NXPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPersonModel.h; sourceTree = "<group>"; };
+		69024FFA1CB18C670032DF38 /* NXPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPersonModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 				69024F691CAF3BCA0032DF38 /* SecondViewController.h */,
 				69024F6A1CAF3BCA0032DF38 /* SecondViewController.m */,
 				69024F6C1CAF3BCA0032DF38 /* Main.storyboard */,
+				69024FF71CB18B760032DF38 /* persons.txt */,
+				69024FF91CB18C670032DF38 /* NXPersonModel.h */,
+				69024FFA1CB18C670032DF38 /* NXPersonModel.m */,
 				69024F6F1CAF3BCA0032DF38 /* Images.xcassets */,
 				69024F711CAF3BCA0032DF38 /* LaunchScreen.xib */,
 				69024F5F1CAF3BCA0032DF38 /* Supporting Files */,
@@ -217,6 +225,7 @@
 				69024F6E1CAF3BCA0032DF38 /* Main.storyboard in Resources */,
 				69024F731CAF3BCA0032DF38 /* LaunchScreen.xib in Resources */,
 				69024F701CAF3BCA0032DF38 /* Images.xcassets in Resources */,
+				69024FF81CB18B760032DF38 /* persons.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +246,7 @@
 				69024F8A1CAF3F760032DF38 /* DetailViewController.m in Sources */,
 				69024F6B1CAF3BCA0032DF38 /* SecondViewController.m in Sources */,
 				69024F8D1CAF418B0032DF38 /* Detail2ViewController.m in Sources */,
+				69024FFB1CB18C670032DF38 /* NXPersonModel.m in Sources */,
 				69024F651CAF3BCA0032DF38 /* AppDelegate.m in Sources */,
 				69024F681CAF3BCA0032DF38 /* FirstViewController.m in Sources */,
 				69024F621CAF3BCA0032DF38 /* main.m in Sources */,

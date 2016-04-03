@@ -7,8 +7,12 @@
 //
 
 #import "SecondViewController.h"
+#import "NXPersonModel.h"
 
 @interface SecondViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UILabel *personNumberLabel;
 
 @end
 
@@ -22,6 +26,24 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+//학번 찾기 버튼을 누르면 발생
+- (IBAction)showPersonNumber:(id)sender {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"" ofType:@"txt"];
+    NXPersonModel *pm = [[NXPersonModel alloc] initWithPath:path];
+    
+    if([pm findPersonNumberByName:_nameField.text]) {   //이름이 존재하는 경우
+        self.personNumberLabel.text = [pm findPersonNumberByName:_nameField.text];
+    }
+    else {
+        self.personNumberLabel.text = @"결과 없음";
+    }
+}
+
+//이름 목록 보기 버튼을 누르면 발생
+- (IBAction)showPersonNameList:(id)sender {
+    
 }
 
 @end

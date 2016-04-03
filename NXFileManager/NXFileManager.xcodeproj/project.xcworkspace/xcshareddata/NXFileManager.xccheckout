@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95E6DD46-F160-4634-9548-DBCCBEB96080</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NXFileManager</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7EA5F38865DF5DEE97791D106018B96E6B103C92</key>
+		<string>https://github.com/kimhyewon/iOS-basic-practice.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NXFileManager/NXFileManager.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7EA5F38865DF5DEE97791D106018B96E6B103C92</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kimhyewon/iOS-basic-practice.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7EA5F38865DF5DEE97791D106018B96E6B103C92</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7EA5F38865DF5DEE97791D106018B96E6B103C92</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mission-practice</string>
+		</dict>
+	</array>
+</dict>
+</plist>
