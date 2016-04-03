@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../FirstTab/Detail2ViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../FirstTab/Detail2ViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:../DetailViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../DetailViewController.m">
+   </FileRef>
+   <FileRef
       location = "self:FirstTab.xcodeproj">
    </FileRef>
 </Workspace>

@@ -15,6 +15,8 @@
 		69024F701CAF3BCA0032DF38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69024F6F1CAF3BCA0032DF38 /* Images.xcassets */; };
 		69024F731CAF3BCA0032DF38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69024F711CAF3BCA0032DF38 /* LaunchScreen.xib */; };
 		69024F7F1CAF3BCA0032DF38 /* FirstTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69024F7E1CAF3BCA0032DF38 /* FirstTabTests.m */; };
+		69024F8A1CAF3F760032DF38 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69024F891CAF3F760032DF38 /* DetailViewController.m */; };
+		69024F8D1CAF418B0032DF38 /* Detail2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69024F8C1CAF418B0032DF38 /* Detail2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		69024F781CAF3BCA0032DF38 /* FirstTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69024F7D1CAF3BCA0032DF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69024F7E1CAF3BCA0032DF38 /* FirstTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTabTests.m; sourceTree = "<group>"; };
+		69024F881CAF3F760032DF38 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = FirstTab.xcodeproj/../DetailViewController.h; sourceTree = SOURCE_ROOT; };
+		69024F891CAF3F760032DF38 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = FirstTab.xcodeproj/../DetailViewController.m; sourceTree = SOURCE_ROOT; };
+		69024F8B1CAF418B0032DF38 /* Detail2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail2ViewController.h; sourceTree = "<group>"; };
+		69024F8C1CAF418B0032DF38 /* Detail2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,10 @@
 		69024F5E1CAF3BCA0032DF38 /* FirstTab */ = {
 			isa = PBXGroup;
 			children = (
+				69024F8B1CAF418B0032DF38 /* Detail2ViewController.h */,
+				69024F8C1CAF418B0032DF38 /* Detail2ViewController.m */,
+				69024F881CAF3F760032DF38 /* DetailViewController.h */,
+				69024F891CAF3F760032DF38 /* DetailViewController.m */,
 				69024F631CAF3BCA0032DF38 /* AppDelegate.h */,
 				69024F641CAF3BCA0032DF38 /* AppDelegate.m */,
 				69024F661CAF3BCA0032DF38 /* FirstViewController.h */,
@@ -224,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69024F8A1CAF3F760032DF38 /* DetailViewController.m in Sources */,
 				69024F6B1CAF3BCA0032DF38 /* SecondViewController.m in Sources */,
+				69024F8D1CAF418B0032DF38 /* Detail2ViewController.m in Sources */,
 				69024F651CAF3BCA0032DF38 /* AppDelegate.m in Sources */,
 				69024F681CAF3BCA0032DF38 /* FirstViewController.m in Sources */,
 				69024F621CAF3BCA0032DF38 /* main.m in Sources */,
