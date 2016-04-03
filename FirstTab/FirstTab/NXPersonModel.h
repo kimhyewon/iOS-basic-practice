@@ -10,6 +10,9 @@
 
 @interface NXPersonModel : NSObject
 
+@property (nonatomic, weak) NSMutableArray *dictionaryList;
+
+
 - (instancetype)initWithPath:(NSString *)path;
 
 - (void)storeData:(NSString *)path;
