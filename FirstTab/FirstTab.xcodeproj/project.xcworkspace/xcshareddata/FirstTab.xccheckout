@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>9958EF82-F5C6-414A-BF0A-5352DAD243CA</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>FirstTab</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7EA5F38865DF5DEE97791D106018B96E6B103C92</key>
 		<string>https://github.com/kimhyewon/iOS-basic-practice.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FirstTab/FirstTab.xcodeproj/project.xcworkspace</string>
+	<string>FirstTab/FirstTab.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7EA5F38865DF5DEE97791D106018B96E6B103C92</key>

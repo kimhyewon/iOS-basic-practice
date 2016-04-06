@@ -55,7 +55,7 @@
         }
     }
     
-    UIAlertController * alert=   [UIAlertController
+    UIAlertController * alert = [UIAlertController
                                   alertControllerWithTitle:@"전체이름"
                                   message:nameList
                                   preferredStyle:UIAlertControllerStyleAlert];

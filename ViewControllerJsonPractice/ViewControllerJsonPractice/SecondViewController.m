@@ -7,6 +7,9 @@
 //
 
 #import "SecondViewController.h"
+#import "Model.h"
+#import "DetailViewController.h"
+
 
 @interface SecondViewController ()
 
