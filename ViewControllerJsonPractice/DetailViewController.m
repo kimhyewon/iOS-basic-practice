@@ -12,6 +12,8 @@
 
 @interface DetailViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *titleField;
 @property (nonatomic, strong) Model *model;
 
 @end
@@ -30,7 +32,7 @@
 }
 
 - (NSDictionary *)dictionary {
-    int randomIndex = arc4random() % [self.model arrayCount]; //4대신 array length를 해야한다.
+    int randomIndex = arc4random() % [self.model arrayCount]; 
     NSDictionary *dictionary = [self.model itemAtIndex:randomIndex];
 
     return dictionary;
