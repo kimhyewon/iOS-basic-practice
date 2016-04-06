@@ -28,10 +28,7 @@
     self.titleField = [[UILabel alloc] initWithFrame:CGRectMake(50, 50, 200, 100)];
     self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(50, 200, 300, 200)];
     
-    self.model = [[Model alloc] init];
-    
-    int randomIndex = arc4random() % [self.model arrayCount];
-    NSDictionary *dictionary = [self.model itemAtIndex:randomIndex];
+    NSDictionary *dictionary = [self getContensFromDictionary];
     
     [[self view] addSubview:self.titleField];
     [[self view] addSubview:self.imageView];
@@ -40,6 +37,17 @@
     self.titleField.text = [dictionary objectForKey:@"title"];
     self.imageView.image = [UIImage imageNamed:imageName];
 
+}
+
+//get dictionary 
+- (NSDictionary *)getContensFromDictionary
+{
+    self.model = [[Model alloc] init];
+    
+    int randomIndex = arc4random() % [self.model arrayCount];
+    NSDictionary *dictionary = [self.model itemAtIndex:randomIndex];
+
+    return dictionary;
 }
 
 
