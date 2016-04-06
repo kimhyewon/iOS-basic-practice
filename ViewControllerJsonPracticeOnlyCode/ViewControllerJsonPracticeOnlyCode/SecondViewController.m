@@ -26,7 +26,7 @@
     
     [self.view addSubview:self.button]; //현재 뷰의 하위 뷰로 버튼 지정
     
-     [self.button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside]; //버튼 클릭시 타겟 지정
+    [self.button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside]; //버튼 클릭시 타겟 지정
 }
 
 //버튼 클릭시 DetailViewController present

@@ -10,4 +10,7 @@
 
 @interface Model : NSObject
 
+- (NSDictionary*)itemAtIndex:(int)index;
+- (int)arrayCount;
+
 @end
