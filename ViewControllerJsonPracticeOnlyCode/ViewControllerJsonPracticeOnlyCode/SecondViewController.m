@@ -7,8 +7,11 @@
 //
 
 #import "SecondViewController.h"
+#import "DetailViewController.h"
 
 @interface SecondViewController ()
+
+@property (nonatomic, strong) UIButton *button;
 
 @end
 
@@ -16,12 +19,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 80, 50)]; //버튼을 만든다
+    [self.button setTitle:(NSString *)@"Button" forState:UIControlStateNormal]; //버튼의 타이틀 지정
+    [self.button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal]; //버튼 타이틀 색깔 지정
+    
+    [self.view addSubview:self.button]; //현재 뷰의 하위 뷰로 버튼 지정
+    
+     [self.button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside]; //버튼 클릭시 타겟 지정
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//버튼 클릭시 DetailViewController present
+- (void)buttonClicked:(UIButton*)sender
+{
+    DetailViewController *dvc = [[DetailViewController alloc] init];
+    [self presentViewController:dvc animated:YES completion:nil];
 }
 
 @end
+
+

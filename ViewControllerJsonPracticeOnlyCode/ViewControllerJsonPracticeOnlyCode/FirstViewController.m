@@ -21,8 +21,8 @@
     [super viewDidLoad];
     
     self.button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 80, 50)]; //버튼을 만든다
-    [self.button setTitle:(NSString *)@"Picker" forState:UIControlStateNormal];
-    [self.button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [self.button setTitle:(NSString *)@"Picker" forState:UIControlStateNormal]; //버튼의 타이틀 지정
+    [self.button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal]; //버튼 타이틀 색깔 지정 
     
     [self.button addTarget:self action:@selector(showCameraRoll:) forControlEvents:UIControlEventTouchUpInside]; //버튼 클릭시 타겟 지정
 

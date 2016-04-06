@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../ViewControllerJsonPracticeOnlyCode/Model.h">
+   </FileRef>
+   <FileRef
+      location = "group:../ViewControllerJsonPracticeOnlyCode/Model.m">
+   </FileRef>
+   <FileRef
+      location = "group:../DetailViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../DetailViewController.m">
+   </FileRef>
+   <FileRef
       location = "self:ViewControllerJsonPracticeOnlyCode.xcodeproj">
    </FileRef>
 </Workspace>

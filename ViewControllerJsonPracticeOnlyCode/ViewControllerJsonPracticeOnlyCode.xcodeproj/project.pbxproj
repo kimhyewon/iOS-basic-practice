@@ -20,6 +20,8 @@
 		690250B11CB568D20032DF38 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 690250AD1CB568D20032DF38 /* 03.jpg */; };
 		690250B21CB568D20032DF38 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 690250AE1CB568D20032DF38 /* 04.jpg */; };
 		690250B41CB569060032DF38 /* jsonText.txt in Resources */ = {isa = PBXBuildFile; fileRef = 690250B31CB569060032DF38 /* jsonText.txt */; };
+		690250B71CB574520032DF38 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690250B61CB574520032DF38 /* DetailViewController.m */; };
+		690250BA1CB5747E0032DF38 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 690250B91CB5747E0032DF38 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		690250AD1CB568D20032DF38 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
 		690250AE1CB568D20032DF38 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
 		690250B31CB569060032DF38 /* jsonText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jsonText.txt; sourceTree = "<group>"; };
+		690250B51CB574520032DF38 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		690250B61CB574520032DF38 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		690250B81CB5747E0032DF38 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		690250B91CB5747E0032DF38 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,10 @@
 				6902508A1CB5689E0032DF38 /* FirstViewController.m */,
 				6902508C1CB5689E0032DF38 /* SecondViewController.h */,
 				6902508D1CB5689E0032DF38 /* SecondViewController.m */,
+				690250B51CB574520032DF38 /* DetailViewController.h */,
+				690250B61CB574520032DF38 /* DetailViewController.m */,
+				690250B81CB5747E0032DF38 /* Model.h */,
+				690250B91CB5747E0032DF38 /* Model.m */,
 				6902508F1CB5689E0032DF38 /* Main.storyboard */,
 				690250921CB5689E0032DF38 /* Images.xcassets */,
 				690250941CB5689E0032DF38 /* LaunchScreen.xib */,
@@ -244,8 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690250B71CB574520032DF38 /* DetailViewController.m in Sources */,
 				6902508E1CB5689E0032DF38 /* SecondViewController.m in Sources */,
 				690250881CB5689E0032DF38 /* AppDelegate.m in Sources */,
+				690250BA1CB5747E0032DF38 /* Model.m in Sources */,
 				6902508B1CB5689E0032DF38 /* FirstViewController.m in Sources */,
 				690250851CB5689E0032DF38 /* main.m in Sources */,
 			);
